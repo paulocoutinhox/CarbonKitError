@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <CarbonKit/CarbonKit.h>
 
-@interface ViewController : UITableViewController
+@interface ViewController : UIViewController
 
 @property (nonatomic, retain) CarbonSwipeRefresh *refresh;
 
